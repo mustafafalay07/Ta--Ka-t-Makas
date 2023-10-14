@@ -63,3 +63,10 @@ h1 {
 #reset:hover {
     background-color: #ff6b47;
 }
+
+@media (max-height: 750px) {
+    .main {
+        /* do something.. */
+        height: auto;
+    }
+}
